@@ -1,0 +1,65 @@
+/* Tablet font responsive  css  */
+
+@media (min-width: 768px) and (max-width:992px){ 
+   
+   h2
+   {
+      font-size: 20px;
+   }
+   h5
+
+   {
+     font-size:20px ;
+   }
+ 
+}
+/* Tablet font responsive End */
+
+body
+{
+   padding: 100px;
+   margin: 40px;
+}
+
+/* login-box css start form here */
+
+.first-header
+{
+   text-align: center;
+}
+.slyEdit
+{
+   color: sandybrown;
+}
+.login-box
+{ 
+   padding: 50px;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+/* Transaction-box css start form here */
+
+#tracsaction-Area
+{
+   display:none;
+}
+.box
+{
+   margin: 0px 10px;
+   padding: 15px;
+   border-radius: 5%;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Deposit
+{
+  background-color: slateblue;
+}
+.Withdraw
+{
+ background-color: lightsalmon;
+}
+.Balance
+{
+  background-color: orange;
+}
