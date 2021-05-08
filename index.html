@@ -42,21 +42,21 @@
                 <div class="col-md-4">
                  <div class="Deposit box">
                   <h2>Deposit</h2>
-                  <h5>$ 00</h5>
+                  <h5 >$ <span id="current-amount">00</span></h5>
                  </div>
                 </div>
 
                 <div class="col-md-4 ">
                  <div class="Withdraw box">
                   <h2>Withdraw</h2>
-                  <h5>$ 00</h5>
+                  <h5>$ <span id="current-withdraw">00</span></h5>
                  </div>
                 </div>
 
                 <div class="col-md-4">
                   <div class=" Balance box">
                   <h2>Balance</h2>
-                  <h5>$ 1240</h5>
+                  <h5>$ <span id="current-balance">1240</span></h5>
                   </div>
                 </div>
 
@@ -71,11 +71,11 @@
 
                     <div class="form-group">
 
-                      <input class="form-control" type="text" placeholder="$ amount you want to deposit">
+                      <input id="deposit-amount" class="form-control" type="text" placeholder="$ amount you want to deposit">
  
                     </div>
 
-                    <button id="loginBtn" class="btn btn-success btn-block font-weight-bold">Deposit</button>
+                    <button id="Deposit-button" class="btn btn-success btn-block font-weight-bold">Deposit</button>
 
                   </div>
                 </div>
@@ -87,11 +87,11 @@
 
                    <div class="form-group">
 
-                     <input class="form-control" type="text" placeholder="$ amount you want to withdraw">
+                     <input id="withdraw-amount" class="form-control" type="text" placeholder="$ amount you want to withdraw">
 
                    </div>
 
-                    <button id="loginBtn" class="btn btn-success btn-block font-weight-bold">Withdraw</button>
+                    <button id="Withdraw-button" class="btn btn-success btn-block font-weight-bold">Withdraw</button>
                   </div>
                 </div>
 
